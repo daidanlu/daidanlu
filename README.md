@@ -1,36 +1,50 @@
-# Hi there, I'm Daidan! 👋
+# Daidan Lu — Backend-Focused Software Engineer
 
-I'm a Full-Stack Developer passionate about backend systems and building scalable applications.
+I build backend systems and the applications around them. My work emphasizes schema design, API contracts, and making services straightforward to deploy and operate.
 
-- 🚧 Currently developing a custom ERP system (Django + React) for real-world warehouse and order management *(prototype being released incrementally)*
-- 💻 Focused on Backend Development: Python + Django, Java + Spring Boot
-- 📚 Passionate about: Database systems, API design, and scalable system architecture
-
----
-
-## 🛠️ Tech Stack
-
-- **Languages**: Java, Python, C, C++, SQL  
-- **Web & API**: Spring Boot, Django, MyBatis, RESTful API, Maven  
-- **Frontend**: React, Ant Design, HTML, CSS, JavaScript  
-- **Databases / Infra**: MySQL, PostgreSQL, Redis, SQLite3, Docker, Nginx, VPS  
-- **DevOps / Tools**: Git, Bash, Shell, GDB, JUnit, Unit Testing, Agile, CI/CD  
+- **Focus:** backend architecture, databases, API design, testable code  
+- **Languages:** Python, Java, C/C++, SQL  
+- **Frameworks:** Django REST Framework, Spring Boot, MyBatis  
+- **Ops & tooling:** Docker, Nginx, Git, CI/CD, Bash  
+- **Datastores:** PostgreSQL, MySQL, Redis, SQLite  
+- **Frontend (supporting):** React, Ant Design, HTML/CSS/JS  
 
 ---
 
-## 📌 Projects
+## Ongoing Projects
 
-- **ERP System (In Progress)**  
-  A full-stack ERP & inventory management platform tailored for warehouse operations.  
-  Built with Django REST, PostgreSQL, React, and Docker.  
-  🔄 *Currently under active development with asynchronous prototype releases.*
+### ERP Inventory & Order System _(in progress)_
+A full-stack platform under **active development** for warehouse and order management.
 
-- **Other Projects**  
-  Several academic and business projects are hosted in private repositories.  
-  🔒 *Access available upon request.*
-
-📬 Feel free to reach out at **daidan.lu.cs@gmail.com** to learn more or request access.
+- **Stack:** Django REST + PostgreSQL + React, Docker Compose  
+- **Scope:** ~5k SKUs, 500+ orders/month; multi-role support  
+- **Current focus:** stabilizing inventory linkage and audit logging, refining API contracts  
+- **What I’ve contributed:** product & order schema, idempotent APIs, dockerized setup for dev/prod  
 
 ---
 
-> Always learning, always building. ✨
+### Local RAG Demo _(in progress)_
+A lightweight Python demo showing the **RAG pattern** for document Q&A, designed to be easy to reproduce locally.
+
+- **Stack:** Python, Streamlit, sentence-transformers, NumPy vector store, `llama-cpp-python`  
+- **Current focus:** reproducible setup + evaluation script  
+- **Design choices:** single-file index, in-memory store (sufficient for demo scale)  
+
+---
+
+## Other Work
+I also maintain several **private projects**
+- **Access:** Please reach out if you’d like to see details, walkthroughs, or code snippets from these private repositories.  
+
+---
+
+## How I work
+- Start from schema and API contracts → write failing tests → iterate.  
+- Prefer proven tools that are easy to operate.  
+- Ship in small increments and document trade-offs.  
+
+---
+
+## Contact
+📧 **daidan.lu.cs@gmail.com**  
+Happy to discuss system design, collaboration, or provide demos/walkthroughs of ongoing and private work.
