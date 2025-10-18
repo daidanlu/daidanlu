@@ -24,11 +24,13 @@ A full-stack platform under **active development** for warehouse and order manag
 ---
 
 ### Local RAG Demo _(in progress)_
-A lightweight Python demo showing the **RAG pattern** for document Q&A, designed to be easy to reproduce locally.
 
-- **Stack:** Python, Streamlit, sentence-transformers, NumPy vector store, `llama-cpp-python`  
-- **Current focus:** reproducible setup + evaluation script  
-- **Design choices:** single-file index, in-memory store (sufficient for demo scale)  
+A lightweight **full-stack Retrieval-Augmented Generation (RAG)** system for local and offline document Q&A — designed to be easy to reproduce and extend, protecting data security.
+
+- **Stack:** Python · Django REST Framework · Streamlit · Qdrant (Docker) · sentence-transformers · llama-cpp-python  
+- **Current focus:** frontend refinement (health monitor banner, clear-index API, multi-file upload with progress)  
+- **Design choices:** pluggable storage (NumPy or Qdrant), local/offline inference, one-command setup for reproducibility
+  
 
 ---
 
