@@ -1,52 +1,41 @@
-# Daidan Lu — Backend-Focused Software Engineer
+# Daidan Lu
 
-I build backend systems and the applications around them. My work emphasizes schema design, API contracts, and making services straightforward to deploy and operate.
+I build backend services, systems-level applications, and the infrastructure around them. My work emphasizes schema design, clear API contracts, and making systems straightforward to run and operate. With a dual background in Computer Sciences and Mathematics, I also enjoy translating theoretical models into working, memory-safe software.
 
-- **Focus:** backend architecture, databases, API design, testable code  
-- **Languages:** Python, Java, C/C++, SQL  
-- **Frameworks:** Django REST Framework, Spring Boot, MyBatis  
-- **Ops & tooling:** Docker, Nginx, Git, CI/CD, Bash  
-- **Datastores:** PostgreSQL, MySQL, Redis, SQLite  
-- **Frontend (supporting):** React, Ant Design, HTML/CSS/JS  
+- **Focus:** Backend architecture, systems programming, simulation engines, API design
+- **Languages:** Python, Rust, Java, C, C++, SQL, TypeScript, JavaScript
+- **Frameworks:** Django, Spring Boot, React, Streamlit, Tauri
+- **Ops & Datastores:** PostgreSQL, MySQL, Redis, SQLite, Qdrant, Docker, Git, Bash/Shell, GitHub Actions
 
 ---
 
-## Ongoing Projects
+## Featured Work
 
-### ERP Inventory & Order System _(in progress)_
-A full-stack platform under **active development** for warehouse and order management.
+### Evolutio: Game Theory Simulation Engine (Recent)
+A high-performance desktop application built with Rust, Tauri, and React for simulating evolutionary game theory and spatial cellular automata. It uses a thread-safe Rust backend to manage concurrent states via `std::sync::Mutex` and features a zero-copy HTML5 Canvas rendering pipeline, capable of running continuous stochastic simulations of tens of thousands of interacting agents with zero UI lag. This framework incorporates stochastic perturbations and replicator dynamics to analyze evolutionary stability, utilizing a memory-safe Rust core for real-time visualization of population dynamics.
 
-- **Stack:** Django REST + PostgreSQL + React, Docker Compose  
-- **Scope:** ~5k SKUs, 500+ orders/month; multi-role support  
-- **Current focus:** stabilizing inventory linkage and audit logging, refining API contracts  
-- **What I’ve contributed:** product & order schema, idempotent APIs, dockerized setup for dev/prod  
+### Epistemic Logic & Math Implementations (Recent)
+A repository dedicated to the mathematical proof and computational simulation of classic common-knowledge logic puzzles (such as the Blue-Eyed Islanders puzzle), focusing on the algorithmic formalization of recursive reasoning and knowledge states.
 
----
+### ERP Inventory & Order System (Completed / Maintained)
+A full-stack platform for warehouse and order management, supporting multi-role access, ~5k SKUs, and 500+ orders/month. Designed and developed a scalable ERP system with robust relational schema design and integrated business workflow orchestration.
+- **Stack:** Django REST, PostgreSQL, React, Docker Compose
+- **What I did:** Designed the product and order schema, built idempotent APIs to ensure data consistency, implemented comprehensive audit logging, and structured a fully dockerized setup for seamless dev/prod deployment. 
 
-### Local RAG Demo _(in progress)_
-
-A lightweight **full-stack Retrieval-Augmented Generation (RAG)** system for local and offline document Q&A — designed to be easy to reproduce and extend, protecting data security.
-
-- **Stack:** Python · Django REST Framework · Streamlit · Qdrant (Docker) · sentence-transformers · llama-cpp-python  
-- **Current focus:** frontend refinement (health monitor banner, clear-index API, multi-file upload with progress)  
-- **Design choices:** pluggable storage (NumPy or Qdrant), local/offline inference, one-command setup for reproducibility
-  
+### Local RAG QA System (Completed / Maintained)
+A lightweight, privacy-focused full-stack Retrieval-Augmented Generation (RAG) system for offline document Q&A, designed for easy reproducibility.
+- **Stack:** Python, Django REST, Streamlit, Qdrant (Docker), sentence-transformers, llama-cpp-python
+- **What I did:** Implemented pluggable vector storage (NumPy or Qdrant), optimized local inference for consumer hardware, and built reliable frontend utilities including system health monitors and multi-file chunking pipelines. Developed modular ingestion, chunking, and vector indexing pipelines with citation-aligned context reconstruction.
 
 ---
 
 ## Other Work
-I also maintain several **private projects**
-- **Access:** Please reach out if you’d like to see details, walkthroughs, or code snippets from these private repositories.  
 
----
-
-## How I work
-- Start from schema and API contracts → write failing tests → iterate.  
-- Prefer proven tools that are easy to operate.  
-- Ship in small increments and document trade-offs.  
+I also maintain several private projects.
+- **Access:** Please reach out if you’d like to see details, walkthroughs, or code snippets from these private repositories.
 
 ---
 
 ## Contact
-📧 **daidan.lu.cs@gmail.com**  
-Happy to discuss system design, collaboration, or provide demos/walkthroughs of ongoing and private work.
+
+daidan.lu.cs@gmail.com
